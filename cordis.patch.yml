@@ -1,0 +1,8 @@
+# dsh-codex-consult — bundle patch
+#
+# Loaded by the DSH loader after every bundle layer. `insert` mounts the
+# plugin as the node `codex-consult`; configuration belongs to the user's
+# profile patch layer (see README "Configuration").
+- insert:
+    - id: codex-consult
+      name: dsh-codex-consult
