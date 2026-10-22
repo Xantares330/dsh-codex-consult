@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Meteorkid/dsh-codex-consult.git"
+    "url": "git+https://github.com/Xantares330/dsh-codex-consult.git"
   },
-  "homepage": "https://github.com/Meteorkid/dsh-codex-consult#readme",
+  "homepage": "https://github.com/Xantares330/dsh-codex-consult#readme",
   "bugs": {
-    "url": "https://github.com/Meteorkid/dsh-codex-consult/issues"
+    "url": "https://github.com/Xantares330/dsh-codex-consult/issues"
   },
   "publishConfig": {
     "access": "public"
