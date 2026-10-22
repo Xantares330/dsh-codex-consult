@@ -1,0 +1,26 @@
+# Example: DSH profile patch for dsh-codex-consult
+#
+# Place this block in %USERPROFILE%\.dsh\profiles\<profile>\cordis.patch.yml
+# (after the bundle layers), then restart DSH.
+- id: codex-consult
+  config:
+    # Auto-detect the newest Codex CLI; pin it when several versions coexist.
+    codexPath: ""
+    codexHome: ""
+    stateDir: ""
+    model: gpt-6-astra
+    effort: high
+    # "https" keeps long reviews alive behind a local proxy.
+    transport: https
+    proxyUrl: http://127.0.0.1:7897
+    sandbox: read-only
+    timeoutSec: 900
+    maxAttempts: 3
+    loadUserConfig: false
+    requireModelVerification: true
+    keepCalls: 100
+    quota:
+      enabled: true
+      warnOnly: true
+      primaryMaxPercent: 90
+      weeklyMaxPercent: 85
